@@ -7,7 +7,7 @@ import numpy as np
 from pdf2image import convert_from_path
 
 
-# -------------------- CONFIG --------------------
+# -------------------- CONFIGURE --------------------
 
 POPPLER_PATH = r"D:\Python Automation\tools\poppler\Library\bin"
 
