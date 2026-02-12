@@ -9,17 +9,17 @@ from pdf2image import convert_from_path
 
 # -------------------- CONFIGURE --------------------
 
-POPPLER_PATH = r"D:\Python Automation\tools\poppler\Library\bin"
+POPPLER_PATH = r"tools\poppler\Library\bin"
 
-PDF_FILE = r"D:\Python Automation\input\id_cards.pdf"
+PDF_FILE = r"input\id_cards.pdf"
 PDF_DPI = 300
 
-OUTPUT_FILE = "output/candidate_details.xlsx"
+OUTPUT_FILE = "candidate_details.xlsx"
 
 CARDS_PER_PAGE = 5 #Each Page in PDF has 5 ID cards
 
 pytesseract.pytesseract.tesseract_cmd = (
-    r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+    r"tools\Tesseract-OCR\tesseract.exe"
 )
 
 OCR_CONFIGS = [
